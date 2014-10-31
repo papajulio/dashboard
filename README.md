@@ -1,9 +1,8 @@
 
-sudo add-apt-repository ppa:chris-lea/node.js
-sudo apt-get update
+vagrant up
 
-sudo apt-get install nodejs
+vagrant ssh
 
-sudo npm install npm -g
-sudo npm install -g atlasboard
+cd /vagrant_data
 
+./install.sh
